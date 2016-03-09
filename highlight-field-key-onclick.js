@@ -1,6 +1,6 @@
 jQuery(function()
 {
-	if( acf == null || acf.o == null ) {
+	if( typeof acf == 'undefined' || acf.o == null ) {
 		return;
 	}
 	
